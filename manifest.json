@@ -1,0 +1,17 @@
+{
+    "name": "Boligsiden Fixer",
+    "version": "1.0",
+    "description": "Fixes Boligsiden",
+	"manifest_version": 2,
+	"background": {
+		"scripts": [ "background.js" ]
+	},
+	"content_scripts": [
+		{
+			"matches": [ "https://www.boligsiden.dk/*" ],
+			"js": [ "content.js" ]
+		}
+	],
+	"permissions": [ "activeTab" ],
+	"browser_action": {}
+}
