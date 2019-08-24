@@ -1,3 +1,3 @@
 # boligsiden-fixer
 
-fjerner boliger med fucking dyr ejerudgift
+chrome extension som fjerner boliger med fucking dyr ejerudgift
